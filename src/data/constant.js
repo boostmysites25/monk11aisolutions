@@ -1,5 +1,5 @@
 import { CodeXml, NotebookPen, Rocket } from "lucide-react";
-import logo from "../assets/logo/logo.png";
+import logo from "../assets/logo/logo.jpeg";
 
 export { logo };
 
