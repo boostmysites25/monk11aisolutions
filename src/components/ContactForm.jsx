@@ -40,9 +40,10 @@ const ContactForm = ({ headline, id }) => {
       to: companyDetails.email,
       subject: "Contact Form Submission - Monk 11 AI Solutions",
       body: emailBody,
+      name:"Monk 11 AI Solutions"
     };
 
-    await fetch("https://smtp-api-tawny.vercel.app/send-email", {
+    await fetch("https://send-mail-redirect-boostmysites.vercel.app/send-email", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
